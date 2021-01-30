@@ -3,12 +3,16 @@
 Release History
 ---------------
 
-0.9.0 (TBD January 2021)
+0.9.0 (30 January 2021)
 ++++++++++++++++++++++++
 
+- Added suppport for order book capture in Coinbase Pro feedhandler
+- Converted Behemoth daily job to Luigi task pipeline to improve resilience
 - Secured AzureBlobTickstore by switching to Azure AD credentials for read-only
 - Integrated documentation with http://readthedocs.org
 - Improved API docstrings
+- Removed IntelliJ IDE settings from source code control
+- Upgraded all libraries to latest versions
 
 0.8.0 (2021-01-01)
 ++++++++++++++++++
